@@ -1,0 +1,97 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #f8f8f8;
+}
+
+/* HEADER */
+#header-nav {
+  background-color: #858585;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 2px solid #000;
+  min-height: 80px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  padding-left: 30px;
+}
+
+.navbar-header {
+  min-height: 80px;
+}
+
+.navbar-brand h1 {
+  color: #000000;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#collapsable-nav {
+  margin-top: -25px;
+}
+
+#nav-list a {
+  color: #000;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+#nav-list li {
+  border-bottom: 1px solid #000;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: #FFF;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-top: 2px solid #000;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+
+.navbar-header button.navbar-toggle {
+  margin-top: 10px;
+}
+
+/* END OF HEADER */
+
+/* MAIN CONTENT */
+
+#main-content {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#main-content #title {
+  margin-bottom: 50px;
+}
+
+#menu-first-item {
+  background-color: gray;
+  min-height: 1000px;
+  text-align: justify;
+}
+
+#menu-first-item .menu-item-title {
+  text-align: center;
+}
+
+/* MEDIUM DEVICES */
+
+@media (max-width: 767px) {
+
+  /* MAIN CONTENT */
+  #main-content {
+    width: 80%;
+  }
+  /* MAIN CONTENT */
+}
